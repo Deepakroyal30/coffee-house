@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav input{
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #631212;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+nav {
+    background: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+     height: 300px;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 0px 0px 8px black;
+     background-position: center;
+     margin-bottom: 40px;
+    
+}
+nav ::placeholder{
+    color: white;
+}
+.coffee_menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.coffee_menu div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 198px;
+    align-items: center;
+    justify-content: center;
+    
+}
+h4{
+   margin-block: 15px;
+   align-items: center;
+    font-weight: bold;
+   color:rgba(0, 0, 0, 0.8);
+   width: 40%;
+   height: 18px;
+
+}
+.coffee_menu img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+}
+.coffee_menu img:hover{
+    transform: scale(1.1);
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+body{
+    background-color: rgb(165, 42, 42, 0.2);
+}
+.desc{
+    width: 90%;
+    margin: auto;
+    margin-block: 50px;
+    background-color: rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+    color: brown;
+    align-items: center;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+div desc{
+    margin-top: 60px;
+    padding: 30px;
+}
+li{
+    padding-left: 8px;
+}
